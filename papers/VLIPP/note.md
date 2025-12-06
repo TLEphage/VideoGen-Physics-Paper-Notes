@@ -98,11 +98,11 @@ Pandora[55] 利⽤ LLMs 通过⾃由⽂本动作指令实现实时控制实现�
 > **Scene Understanding.** We ﬁrst initiate the process by identifying and locating objects within a scene. We employ GPT-4o [38] to recognize all objects that could be involved in physical phenomena as described in the text description
 > d. These objects are subsequently detected and segmented using Grounded-SAM2 [41], yielding their bounding boxes. 
 
-**场景理解。**我们⾸先通过识别和定位场景中的物体来启动该过程。我们采⽤GPT-4o [38] 识别⽂本描述 d 中可能参与物理现象的所有对象。随后，使⽤ Grounded-SAM2 [41] 对这些对象进⾏检测和分割，并获取它们的边界框。
+**场景理解:** 我们⾸先通过识别和定位场景中的物体来启动该过程。我们采⽤GPT-4o [38] 识别⽂本描述 d 中可能参与物理现象的所有对象。随后，使⽤ Grounded-SAM2 [41] 对这些对象进⾏检测和分割，并获取它们的边界框。
 
 >**Physical-Aware Recognition.** We utilize the pretrained prior of the LLM to determine the physical laws applicable to the current scene. Following the conﬁguration in the physical bench-mark [3, 31, 33], we currently classify common physical phenomena in videos into six categories: **gravity, momentum conservation, optics, thermodynamics, magnetism,and ﬂuid mechanics**. Given a video description $d$, the LLM infers the physical law $l$ that governs the current scene. We provide the speciﬁc physical context information for VLM to enhance its understanding of physical laws [11].
 
-**物理感知识别。**我们利⽤LLM 的预训练先验来确定当前场景适⽤的物理定律。遵循物理基准[3, 31, 33]中的配置，我们⽬前将视频中常⻅的物理现象分为六类：**重⼒、动量守恒、光学、热⼒学、磁学和流体⼒学**。给定视频描述 $d$，LLM 推断出⽀配当前场景的物理定律 $l$。我们为 VLM 提供具体的物理上下⽂信息，以增强其对物理定律的理解[11]。
+**物理感知识别:** 我们利⽤LLM 的预训练先验来确定当前场景适⽤的物理定律。遵循物理基准[3, 31, 33]中的配置，我们⽬前将视频中常⻅的物理现象分为六类：**重⼒、动量守恒、光学、热⼒学、磁学和流体⼒学**。给定视频描述 $d$，LLM 推断出⽀配当前场景的物理定律 $l$。我们为 VLM 提供具体的物理上下⽂信息，以增强其对物理定律的理解[11]。
 
 > **Chain of Thought Reasoning in VLM.** Given the physical law $l$, an image $I$ and a video description $d$ for the scene, we prompt the VLM to predict the future bounding box positions of objects within the image-space.
 
