@@ -18,8 +18,9 @@
   - [repo](https://github.com/Madaoer/VLIPP)
 - **PhysCtrl: Generative Physics for Controllable and Physics-Grounded Video Generation**
   - [paper](https://arxiv.org/abs/2509.20358)
-  - project page
-  - repo
+  - [project page](https://cwchenwang.github.io/physctrl/)
+  - [repo](https://github.com/cwchenwang/physctrl)
+  - 此项目发布了550k个物体动画的⼤规模合成数据集，涵盖四种材料类型（弹性、沙⼦、油泥和刚性）
 - **NEWTONGEN: PHYSICS-CONSISTENT AND CONTROLLABLE TEXT-TO-VIDEO GENERATION VIA NEURAL  NEWTONIAN DYNAMICS**
   - [paper](https://arxiv.org/abs/2509.21309)
   - project page
