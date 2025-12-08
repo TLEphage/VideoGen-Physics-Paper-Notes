@@ -1,4 +1,5 @@
 # 论文笔记：NewtonGen——基于神经牛顿动力学的物理一致且可控的文本到视频生成
+
 **论文标题**：NEWTONGEN: PHYSICS-CONSISTENT AND CONTROLLABLE TEXT-TO-VIDEO GENERATION VIA NEURAL NEWTONIAN DYNAMICS
 **作者单位**：普渡大学、三星美国研究院
 **核心领域**：文本到视频生成（T2V）、物理感知生成模型
