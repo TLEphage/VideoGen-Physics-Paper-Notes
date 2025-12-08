@@ -1,4 +1,5 @@
 # 论文笔记：MORPHEUS——基于真实物理实验的视频生成模型物理推理能力基准
+
 **论文标题**：MORPHEUS: BENCHMARKING PHYSICAL REASONING OF VIDEO GENERATIVE MODELS WITH REAL PHYSICAL EXPERIMENTS
 **arXiv编号**：2504.02918v2
 **研究领域**：计算机视觉-视频生成-物理推理评估

@@ -1,4 +1,5 @@
 # VideoGen-Physics-Paper-Notes
+
 基于物理遵循的视频生成相关论文及笔记
 
 ## 研究背景
@@ -24,8 +25,8 @@
 - **NEWTONGEN: PHYSICS-CONSISTENT AND CONTROLLABLE TEXT-TO-VIDEO GENERATION VIA NEURAL  NEWTONIAN DYNAMICS**
   - [paper](https://arxiv.org/abs/2509.21309)
   - project page
-  - repo
+  - [repo](https://github.com/pandayuanyu/NewtonGen)
 - **MORPHEUS: BENCHMARKING PHYSICAL REASONING OF VIDEO  GENERATIVE MODELS WITH REAL PHYSICAL EXPERIMENTS**
   - [paper](https://arxiv.org/abs/2504.02918)
-  - project page
+  - [project page](https://physics-from-video.github.io/morpheus-bench/)
   - repo

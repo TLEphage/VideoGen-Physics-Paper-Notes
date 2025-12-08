@@ -259,3 +259,43 @@ Pandora[55] 利⽤ LLMs 通过⾃由⽂本动作指令实现实时控制实现�
 1. **PhyGenBench**：涵盖上述力学（40个prompt）、光学（50个prompt）、热学（40个prompt）、材料学（20个prompt）的27类核心现象，含165类物体、42种动作的交互；
 2. **Physics-IQ**：包含固体力学（114个视频）、流体动力学（45个视频）、光学（24个视频）、磁学（6个视频）、热力学（9个视频）的66类真实物理场景；
 3. **实验/补充材料样例**：如油水混合、浓硫酸与棉花反应、蜡烛/黄油融化、小球自由下落反弹、网球碰撞等具象化现象。
+
+
+
+### Prompt
+
+1. 动量守恒类-两刚性小球相向碰撞运动
+   - Two small balls on the table move towards each other and collide
+2. 流体力学类-清水倾倒进透明玻璃杯运动
+   - Clean water is poured into a transparent glass
+3. 动量守恒类-木质小球与铁质立方体碰撞运动
+   - A wooden ball collides with an iron cube
+4. 重力类-橡胶球自由下落并与地面弹性碰撞运动
+   - A rubber ball falls freely under gravity, accelerating as it descends. Upon hitting the ground, it undergoes an elastic collision
+5. 流体力学类-铁块在水面浮沉运动
+   - A piece of iron is gently placed on the surface of the water in a tank filled with water
+6. 流体力学类-威士忌酒倾倒进酒馆木质桌面酒杯运动
+   - A whiskey glass on a wooden table in tavern, and amber-colored whiskey is poured into it from a bottle
+7. 普通机械运动类-蓝色标记笔在白板书写轨迹运动
+   - A blue marker is used to write on the smooth, white surface of a whiteboard
+8. 流体力学类-玻璃饮料机倾倒红色液体至下方玻璃杯运动
+   - A glass beverage dispenser filled with a bright red liquid is set up on a woven basket and is pouring the liquid into a clear glass on a wooden table
+9. 动量守恒类-多网球连续碰撞运动
+   - A table with two tennis balls, one orange and one brown, placed near the center back to back. A grey tennis ball rolls out of a black pipe sitting on the table and towards the other two balls
+10. 重力类-木质小球1米高度自由下落、桌面弹性碰撞及阻尼回弹至静止运动
+    - Generate a high-quality video of a wooden ball dropping from a height of about 1 meter onto a smooth, solid table.Capture the physics of the ball's descent, including its acceleration due to gravity, the moment of impact with the table, and the subsequent bounce. Show the ball compressing slightly upon impact, then rebounding, losing a bit of height with each bounce until it comes to rest. Include subtle details like the sound of the impact, the slight vibration of the table, and the ball's rotation as it moves
+11. 流体力学类-茶水倾倒进玻璃杯及液面波纹运动
+    - The video shows a close-up of a clear glass being filled with tea. The tea is being poured from above, and we can see the stream of tea hitting the bottom of the glass and causing ripples and splashes. The background is a plain white surface, which contrasts with the transparency of the glass and the clarity of the tea. The glass is cylindrical in shape and appears to be of a standard size for a drinking glass
+12. 流体力学类-油倒入水杯的密度分层运动
+    - A clear glass of oil is gently poured into a glass of water
+13. 热力学类-浓硫酸与棉花热化学脱水反应运动
+    - A timelapse captures the reaction as concentrated sulfuric acid is poured onto a cotton ball
+14. 热力学类-蜡烛高温熔化相变运动
+    - A timelapse captures the gradual transformation of a candle as the temperature rises significantly
+15. 热力学类-黄油高温熔化相变运动
+    - A timelapse captures the gradual transformation of butter as the temperature rises significantly
+16. 流体力学类-石块在水中下沉运动
+    - A stone is gently placed on the surface of a pool filled with water
+17. 流体力学类-木块在水面漂浮运动
+    - A piece of wood block is gently placed on the surface of a bowl filled with water
+
